@@ -9,7 +9,11 @@ public class RATING extends JFrame {
     private JTextField txtEmail;
     private JTextArea txtFeedback;
     private JButton SUBMITButton;
-public RATING() {
+    private JSpinner spinner1;
+
+    public RATING() {
+
+
     SUBMITButton.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -18,13 +22,20 @@ public RATING() {
             String email = txtEmail.getText();
             String feedback = txtFeedback.getText();
 
+
             JOptionPane.showMessageDialog(null, name);
             JOptionPane.showMessageDialog(null, phone);
             JOptionPane.showMessageDialog(null, email);
             JOptionPane.showMessageDialog(null,feedback);
         }
     });
-}
+        SUBMITButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+    }
     public static void main(String args[]) {
         RATING j = new RATING();
         j.setContentPane(new RATING().main);
@@ -32,7 +43,13 @@ public RATING() {
         j.setVisible(true);
         j.pack();
 
-
     }
 
 }
+
+
+
+
+
+
+
