@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ONLINE SURVEY:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ONLINE_SURVEY_jar</output-path>
+    <root id="archive" name="ONLINE SURVEY.jar">
+      <element id="module-output" name="ONLINE SURVEY" />
+      <element id="archive" name="archive.jar" />
+    </root>
+  </artifact>
+</component>
